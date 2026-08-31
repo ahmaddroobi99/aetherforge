@@ -1,19 +1,7 @@
 # aetherforge
 
-Enterprise AI control plane: 12 production AI-engineering products in one coherent platform (regression, cost autopilot, forensics, RAG, gateway, flags, and more).
+**Scaffold only.** `pyproject.toml` describes an “enterprise AI control plane” (FastAPI, uvicorn, a CLI entry point `aetherforge.cli:main`) and `docker-compose.yml` tries to `pip install -e .` and serve on port 8080.
 
-This repository is **original work** on this account. It is kept for provenance.
+There is **no `src/` tree** in this repository. The declared 12 products, gateway, RAG, flags, and forensics are intent — they are not implemented here.
 
-It is **not** current research. Featured work:
-
-- [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) — QG Lagrangian data assimilation
-- [ai-perception-lab](https://github.com/ahmaddroobi99/ai-perception-lab) — computer vision lab
-- Profile: [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99)
-
-## Language
-
-source
-
-## Year
-
-2026
+Until the package exists, `docker compose up` will fail on the missing module. Treat this as a name-holder, not a platform.
